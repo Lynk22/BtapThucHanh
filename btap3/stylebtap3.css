@@ -1,0 +1,133 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 30px;
+    border: 1px solid #E8D499;
+    background-color: #FFF2CC;
+}
+.shop{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    height: 40px;
+    align-items: center;
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #BBA3C3;
+    border-radius: 50px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    align-items: center;
+}
+.choice{
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+}
+.choice:hover{
+    background-color: #DAE8FC;
+    border-radius: 5px;
+}
+.footer{
+    padding: 5px 30px;
+    border: 1px solid #E8D499;
+    background-color: #FFF2CC;
+}
+.fas{
+    margin-right: 5px ;
+}
+.bodymain{
+    padding: 20px 30px;
+}
+.inforpay{
+    display: flex;
+}
+.idname{
+    border: 1px solid black;
+    padding: 0px 50px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.infor{
+    width: 100%;
+    border-radius: 5px;
+    height: 25px;
+    margin-bottom: 20px;
+}
+.payment{
+    border: 1px solid black;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.idtag{
+    margin: 0px;
+}
+.paytag{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 3px;
+}
+.payid{
+    margin-left: 10px;
+}
+.product{
+    border: 1px solid black;
+    padding: 10px 5px;
+    max-width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.begin{
+    display: flex;
+}
+.prodimg{
+    width: 200px;
+    height: auto;
+}
+.prod1{
+    margin-left: 20px;
+    width: 138px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.nav1{
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: aqua;
+    padding: 5px 10px;
+}
+button:hover{
+    cursor: pointer;
+}
+@media (max-width: 600px){
+    .prodimg{
+        width: 100px;
+    }
+}
+@media (max-width: 500px){
+    .product{
+        display: inline-block;
+        width: 100%;
+    }
+}@media (max-width: 425px){
+    .menu{
+        display: none;
+    }
+    .inforpay{
+        display: inline-block;
+    }
+    .idname{
+        width: 55vw;
+    }
+}

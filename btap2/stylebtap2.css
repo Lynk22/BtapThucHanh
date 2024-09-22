@@ -1,0 +1,122 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 30px;
+    border: 1px solid #E8D499;
+    background-color: #FFF2CC;
+}
+.shop{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    height: 40px;
+    align-items: center;
+}
+.avatar{
+    border: 2px solid #BBA3C3;
+    border-radius: 50px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    align-items: center;
+}
+.choice{
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+}
+.choice:hover{
+    background-color: #DAE8FC;
+    border-radius: 5px;
+}
+.footer{
+    padding: 5px 30px;
+    border: 1px solid #E8D499;
+    background-color: #FFF2CC;
+}
+.fas{
+    margin-right: 5px ;
+}
+.bodymain{
+    padding: 20px 30px;
+}
+.product{
+    display: flex;
+}
+.proimg{
+    width: 50%;
+    padding: 20px;
+}
+.proimg2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.manyimg{
+    width: 20%;
+    height: auto;
+    margin: 10px;
+}
+.procolor{
+    padding: 5px 10px;
+}
+.procolor:active{
+    background-color: aqua;
+    border: 2px solid blue;
+}
+.price{
+    display: flex;
+    align-items: baseline;
+    width: 150px;
+    height: 40px;
+    justify-content: space-between;
+}
+button{
+    border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+}
+.comment{
+    padding: 25px;
+}
+.customer{
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.custom{
+    display: flex;
+    justify-content: space-between;
+}
+.cust{
+    display: flex;
+    flex-flow: column wrap;
+    width: 110px;
+    height: 40px;
+    align-content: space-between;
+}
+.addcart{
+    padding: 5px; 
+    background-color: pink; 
+    border:2px solid rgb(240, 26, 62);
+}
+@media (max-width: 700px){
+    .manyimg{
+        width: 80%;
+        height: auto;
+    }
+}
+@media (max-width: 485px){
+    button{
+        margin-top: 10px;
+    }
+    .menu{
+        display: none;
+    }
+    .proimg{
+        padding: 10px;
+    }
+}
